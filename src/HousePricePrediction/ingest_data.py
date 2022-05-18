@@ -1,5 +1,3 @@
-from ast import arg
-from gettext import install
 import os,tarfile
 import urllib.request
 import numpy as np
@@ -10,7 +8,6 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 import argparse
-import csv
 from os.path import dirname as up
 import logging
 import argparse
