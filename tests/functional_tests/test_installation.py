@@ -1,6 +1,4 @@
-import imp
 import importlib.util
-from pandas import options
 def test_installation():
     import HousePricePrediction
     import HousePricePrediction.ingest_data
@@ -8,3 +6,5 @@ def test_installation():
     import HousePricePrediction.train
     package_name = 'HousePricePrediction'
     assert importlib.util.find_spec(package_name) is not None
+
+test_installation()

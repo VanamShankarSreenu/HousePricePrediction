@@ -36,3 +36,7 @@ def test_score():
     obj.results()
     assert obj.rmse is not None
     assert obj.r2 is not None
+
+test_ingest_data()
+test_traing()
+test_score()

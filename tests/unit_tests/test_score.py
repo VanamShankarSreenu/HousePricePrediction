@@ -1,8 +1,6 @@
 from HousePricePrediction import score
 import unittest
 
-from importlib_metadata import method_cache
-
 class Test_score(unittest.TestCase):
     def test_parse_args(self):
         method = score.scores()
