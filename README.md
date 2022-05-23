@@ -15,7 +15,7 @@ The following techniques have been used:
     - r2
     - rmse
   
-## Steps to install image from remote docker repo and run in any local machine.
+## Steps to install image from remote docker repo and run  and test in any local machine.
    Docker helps in building easy and portable application development.
 ## step l
 - newimg is the name of the image
